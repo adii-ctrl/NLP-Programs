@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NLP Unit 1 Programs
 
 This repository contains the Unit 1 programs for Natural Language Processing (NLP), implemented using Python, NLTK, and spaCy.
@@ -158,3 +159,7 @@ After completing these programs, the following NLP concepts are demonstrated:
 **Aditya Mourya**
 
 B.Tech Computer Science and Engineering (Artificial Intelligence)
+=======
+# NLP-Unit-1-Programs
+Unit 1 Natural Language Processing programs using Python, NLTK and spaCy.
+>>>>>>> ea0b7168b5c246a854ff6c64e2811b9ed4c225f0
