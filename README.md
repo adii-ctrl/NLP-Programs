@@ -1,165 +1,217 @@
-<<<<<<< HEAD
-# NLP Unit 1 Programs
+# NLP Programs
 
-This repository contains the Unit 1 programs for Natural Language Processing (NLP), implemented using Python, NLTK, and spaCy.
+This repository contains the **Natural Language Processing (NLP) Lab Programs** completed as part of the B.Tech CSE (Artificial Intelligence) curriculum at **Noida Institute of Engineering and Technology (NIET), Greater Noida**.
 
-## About the Project
+The repository contains programs from **CO1 and CO2**, implemented using Python and commonly used NLP libraries such as NLTK and spaCy.
 
-The purpose of these programs is to understand and implement fundamental Natural Language Processing techniques such as tokenization, stemming, lemmatization, stop-word removal, POS tagging, parsing, chunking, and named entity recognition.
+## 📚 Course
 
-## Technologies Used
+**Subject:** Natural Language Processing (NLP)
+
+**Program:** B.Tech CSE (Artificial Intelligence)
+
+**Institute:** Noida Institute of Engineering and Technology (NIET), Greater Noida
+
+---
+
+## 📂 Repository Structure
+
+```text
+NLP-Programs/
+│
+├── CO1/
+│   ├── 01_Tokenization.py
+│   ├── 02_Stemming_Lemmatization.py
+│   ├── 03_Stopwords.py
+│   ├── 04_POS_Tagging.py
+│   ├── 05_Parsing_Chunking.py
+│   └── 06_NER.py
+│
+├── CO2/
+│   ├── 08_BOW.py
+│   ├── 09_TFIDF.py
+│   ├── 10_NGram.py
+│   ├── 11_Cosine_Similarity.py
+│   ├── 12_Word2Vec.py
+│   ├── 13_GloVe.py
+│   ├── 14_WMD.py
+│   ├── 15_Text_Classification.py
+│   ├── 16_Sentiment_Analysis.py
+│   ├── 17_LDA.py
+│   ├── 18_LSA.py
+│   ├── 19_Opinion_Mining.py
+│   ├── 20_Information_Extraction.py
+│   └── 21_Information_Retrieval.py
+│
+└── README.md
+```
+
+> Only the programs that have been completed are uploaded to the repository. The CO2 folder will be updated as the remaining programs are completed.
+
+---
+
+## 🧠 CO1 Programs
+
+The CO1 section contains basic Natural Language Processing programs:
+
+1. **Tokenization**
+2. **Stemming and Lemmatization**
+3. **Stopword Removal**
+4. **Part-of-Speech (POS) Tagging**
+5. **Parsing and Chunking**
+6. **Named Entity Recognition (NER)**
+
+---
+
+## 🧠 CO2 Programs
+
+The CO2 section contains programs related to text representation, similarity, embeddings, classification, sentiment analysis, topic modeling, opinion mining, information extraction, and information retrieval.
+
+### Programs
+
+8. **Bag-of-Words (BoW) Vectorization and Representation**
+
+9. **TF-IDF Implementation and Comparison with BoW**
+
+10. **N-Gram Model Generation**
+
+* Unigram
+* Bigram
+* Trigram
+
+11. **Cosine Similarity Computation**
+
+12. **Word2Vec Word Embeddings using Gensim**
+
+13. **GloVe Embeddings**
+
+14. **Text Similarity using Word Mover's Distance (WMD)**
+
+15. **Text Classification using Naïve Bayes/SVM with TF-IDF**
+
+16. **Sentiment Analysis using TextBlob and VADER**
+
+17. **Topic Modeling using Latent Dirichlet Allocation (LDA)**
+
+18. **Topic Modeling using Latent Semantic Analysis (LSA)**
+
+19. **Opinion Mining on Product/Service Reviews**
+
+20. **Information Extraction from Structured/Unstructured Documents**
+
+21. **Information Retrieval System with Ranking using TF-IDF**
+
+---
+
+## 🛠️ Technologies Used
 
 * Python 3.11
 * NLTK
 * spaCy
+* Gensim
+* Scikit-learn
+* TextBlob
+* VADER
 * Regular Expressions (RegEx)
 * VS Code
+* Git & GitHub
 
-## Programs Included
+---
 
-### 1. Tokenization
+## ⚙️ Installation
 
-**Folder:** `01_Tokenization`
+Clone the repository:
 
-Tokenization divides a text into smaller units such as sentences and words.
-
-This program demonstrates:
-
-* Sentence tokenization using NLTK
-* Word tokenization using NLTK
-* Sentence tokenization using spaCy
-* Word tokenization using spaCy
-
-### 2. Stemming and Lemmatization
-
-**Folder:** `02_Stemming_Lemmatization`
-
-This program demonstrates two techniques for reducing words to their base or root forms.
-
-* Stemming using Porter Stemmer
-* Lemmatization using WordNet Lemmatizer
-
-### 3. Stop-word Removal
-
-**Folder:** `03_Stopword_Removal`
-
-This program removes common words such as "is", "the", "a", "of", and "it" from a document using NLTK stop-word lists.
-
-### 4. Part-of-Speech Tagging
-
-**Folder:** `04_POS_Tagging`
-
-This program assigns grammatical tags to words in a sentence, such as:
-
-* Noun
-* Verb
-* Adjective
-* Adverb
-* Determiner
-
-### 5. Parsing and Chunking
-
-**Folder:** `05_Parsing_Chunking`
-
-This program demonstrates:
-
-* Regular Expression based chunking using NLTK
-* Dependency parsing using spaCy
-
-### 6. Named Entity Recognition
-
-**Folder:** `06_NER`
-
-This program uses spaCy to identify named entities in text, such as:
-
-* Person
-* Organization
-* Location
-* Date
-
-## Project Structure
-
-```text
-NLP-Unit-1-Programs/
-│
-├── 01_Tokenization/
-│   └── tokenization.py
-│
-├── 02_Stemming_Lemmatization/
-│   └── stemming_lemmatization.py
-│
-├── 03_Stopword_Removal/
-│   └── stopword_removal.py
-│
-├── 04_POS_Tagging/
-│   └── pos_tagging.py
-│
-├── 05_Parsing_Chunking/
-│   └── parsing_chunking.py
-│
-├── 06_NER/
-│   └── named_entity_recognition.py
-│
-├── README.md
-└── requirements.txt
+```bash
+git clone https://github.com/adii-ctrl/NLP-Programs.git
 ```
 
-## Installation
+Move into the project directory:
 
-Create and activate a Python virtual environment:
+```bash
+cd NLP-Programs
+```
+
+Create a virtual environment:
 
 ```bash
 python -m venv venv
 ```
 
-For Windows PowerShell:
+Activate the virtual environment on Windows:
 
-```powershell
-.\venv\Scripts\Activate.ps1
+```bash
+venv\Scripts\activate
 ```
 
 Install the required libraries:
 
 ```bash
-pip install -r requirements.txt
+pip install nltk spacy gensim scikit-learn textblob
 ```
 
-Install the spaCy English language model:
+Additional libraries can be installed when required by individual CO2 programs.
 
-```bash
-python -m spacy download en_core_web_sm
-```
+---
 
-## How to Run
+## ▶️ Running the Programs
 
-Run any program from the project root directory.
+Navigate to the required folder and run the Python program.
 
 Example:
 
 ```bash
-python .\01_Tokenization\tokenization.py
+cd CO1
+python 01_Tokenization.py
 ```
 
-Other programs can be executed similarly.
+For CO2:
 
-## Learning Outcomes
+```bash
+cd CO2
+python 08_BOW.py
+```
 
-After completing these programs, the following NLP concepts are demonstrated:
+---
 
-* Text tokenization
-* Word normalization
-* Stop-word removal
-* Grammatical analysis
-* Phrase chunking
-* Dependency parsing
-* Named entity recognition
+## 🎯 Learning Outcomes
 
-## Author
+Through these programs, the following NLP concepts are explored:
+
+* Text preprocessing
+* Tokenization
+* Stemming and Lemmatization
+* Stopword removal
+* POS tagging
+* Named Entity Recognition
+* Text vectorization
+* TF-IDF
+* N-Gram models
+* Text similarity
+* Word embeddings
+* Text classification
+* Sentiment analysis
+* Topic modeling
+* Opinion mining
+* Information extraction
+* Information retrieval
+
+---
+
+## 👨‍💻 Author
 
 **Aditya Mourya**
 
-B.Tech Computer Science and Engineering (Artificial Intelligence)
-=======
-# NLP-Unit-1-Programs
-Unit 1 Natural Language Processing programs using Python, NLTK and spaCy.
->>>>>>> ea0b7168b5c246a854ff6c64e2811b9ed4c225f0
+B.Tech CSE (Artificial Intelligence)
+
+Noida Institute of Engineering and Technology (NIET)
+
+Greater Noida, Uttar Pradesh, India
+
+---
+
+## 📌 Note
+
+This repository is maintained as part of the NLP Laboratory coursework.
+
+New programs will be added and the repository will be updated as the course progresses.
