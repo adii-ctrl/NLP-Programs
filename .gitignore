@@ -1,4 +1,57 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
 venv/
-__pycache__/
-*.pyc
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# IDE / Editor
+
 .vscode/
+.idea/
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
+
+# Python distribution
+
+build/
+dist/
+*.egg-info/
+
+# Logs
+
+*.log
+
+# Environment variables
+
+.env
+
+# Model / Data files
+
+*.pkl
+*.pickle
+*.joblib
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Coverage
+
+.coverage
+htmlcov/
+.pytest_cache/

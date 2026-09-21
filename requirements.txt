@@ -1,2 +1,11 @@
-nltk==3.10.3
-spacy==3.8.16
+nltk
+spacy
+gensim
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+textblob
+vaderSentiment
+scipy
