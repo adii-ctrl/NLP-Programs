@@ -1,4 +1,4 @@
-nltk
+﻿nltk
 spacy
 gensim
 scikit-learn
@@ -9,3 +9,8 @@ seaborn
 textblob
 vaderSentiment
 scipy
+tensorflow
+torch
+transformers
+datasets
+sentencepiece
